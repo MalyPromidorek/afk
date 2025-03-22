@@ -7,7 +7,7 @@ const options = {
   version: '1.21.4',              // wersja serwera
   auth: 'offline'                 // jeśli online-mode jest wyłączony (offline mode)
 };
-
+//
 let bot;
 
 function createBot() {
