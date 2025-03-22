@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer');
 const options = {
   host: 'wszyscygramy.aternos.me', // IP serwera bez portu
   port: 47374,                    // port serwera
-  username: 'MPromidorekr',         // nick bota
+  username: 'MPromidorek',         // nick bota
   version: '1.21.4',              // wersja serwera
   auth: 'offline'                 // jeśli online-mode jest wyłączony (offline mode)
 };
