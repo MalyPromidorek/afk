@@ -1,0 +1,15 @@
+{
+  "name": "afk",
+  "version": "1.0.0",
+  "main": "afkbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mineflayer": "^4.25.0"
+  }
+}
