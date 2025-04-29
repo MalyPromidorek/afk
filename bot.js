@@ -49,7 +49,7 @@ function createBot() {
 
 
 // app.js - Serwer Node.js z Express do hostowania strony
-
+//
 
 const app = express();
 
