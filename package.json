@@ -11,6 +11,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "mineflayer": "^4.25.0"
+    "express": "^5.1.0",
+    "mineflayer": "^4.25.0",
+    "path": "^0.12.7"
   }
 }

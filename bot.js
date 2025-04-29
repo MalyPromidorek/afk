@@ -1,4 +1,6 @@
 const mineflayer = require('mineflayer');
+const express = require('express');
+const path = require('path');
 
 const options = {
   host: 'wszyscygramy.aternos.me', // IP serwera bez portu
@@ -44,5 +46,35 @@ function createBot() {
   }, 300000); // co 5 minut
   */
 }
+
+
+// app.js - Serwer Node.js z Express do hostowania strony
+
+
+const app = express();
+
+const PORT = process.env.PORT || 3000;
+
+// Serwowanie plików statycznych (np. CSS, obrazy, JS)
+app.use(express.static('public'));
+
+// Główna strona
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+app.listen(PORT, () => {
+  console.log(`Serwer działa na http://localhost:${PORT}`);
+});
+
+/*
+Struktura katalogu:
+- project-folder/
+  - app.js
+  - public/
+    - index.html
+    - style.css (jeśli chcesz oddzielny CSS)
+*/
+
 
 createBot();
