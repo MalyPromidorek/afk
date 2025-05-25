@@ -3,8 +3,8 @@ const express = require('express');
 const path = require('path');
 
 const options = {
-  host: 'tomatomc.pl.falixsrv.me',
-  port: 28676,
+  host: 'tomatomcpl.aternos.me',
+  port: 59211,
   username: 'MPromidorek',
   version: '1.21.4',
   auth: 'offline'
